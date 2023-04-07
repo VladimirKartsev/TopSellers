@@ -9,4 +9,28 @@
   .top-sellers-title {
     margin-bottom: 50px;
   }
+  .btn-sale {
+    width: 162px;
+    height: 50px;
+  }
+  .section-list-img-mobile,
+  .section-list-img-tablet {
+    display: none;
+  }
+  .section-list-img-desktop {
+    display: flex;
+    gap: 16px;
+  }
+  .desktop-tablet-title {
+    width: 417px;
+    margin-right: 460px;
+  }
+  .order-block {
+    display: flex;
+  }
+  .photo-img1,
+  .photo-img2,
+  .photo-img3 {
+    margin-bottom: 32px;
+  }
 }
