@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 767px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .top-sellers-title {
+    margin-bottom: 50px;
+  }
+  .photo-img3 {
+    display: none;
+  }
+  .mobile-title {
+    display: none;
+  }
+  .section-list-img {
+    display: flex;
+    gap: 16px;
+  }
+  .desktop-tablet-title {
+    width: 306px;
+  }
+  .btn-sale {
+    margin-right: 0 auto;
+  }
+}
