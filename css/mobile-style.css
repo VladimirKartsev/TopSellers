@@ -9,9 +9,6 @@
   .desktop-tablet-title {
     display: none;
   }
-  .top-sellers-title {
-    margin-bottom: 32px;
-  }
   .btn-sale {
     margin: 0 auto;
     width: 120px;
@@ -20,5 +17,15 @@
   .section-list-img-desktop,
   .section-list-img-tablet {
     display: none;
+  }
+  .section-list-img-mobile {
+    justify-content: center;
+    align-content: center;
+  }
+  .top-sellers-title {
+    margin-bottom: 32px;
+  }
+  #text {
+    margin-bottom: 20px;
   }
 }

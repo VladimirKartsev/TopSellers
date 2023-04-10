@@ -1,0 +1,95 @@
+.beckdrop {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+.modal-wrap {
+  position: absolute;
+  width: 538px;
+  height: 412px;
+  background: #fafafa;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+.close-modal-window {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  right: 30px;
+  top: 30px;
+  background: transparent;
+}
+.modal-svg {
+  stroke: white;
+}
+.modal-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  text-transform: uppercase;
+  color: #111111;
+  margin-top: 40px;
+  padding-left: 40px;
+  margin-bottom: 28px;
+}
+.modal-title-color {
+  color: #fd9222;
+}
+.input-mail {
+  width: 313px;
+  height: 52px;
+  border-radius: 30px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 30px;
+  padding-left: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  outline: none;
+}
+::placeholder {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  color: rgba(64, 64, 64, 0.3);
+}
+.button-submit {
+  width: 137px;
+  height: 52px;
+  background: #fd9222;
+  border-radius: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #ffffff;
+}
+.button-block {
+  display: flex;
+  gap: 10px;
+}
+.modal-form {
+  padding-left: 40px;
+}
+.button-submit:hover,
+.button-submit:focus {
+  background: #fcf1e0;
+  color: #fd9222;
+}
+.modal-img {
+  border-radius: 15px 15px 0px 0px;
+}

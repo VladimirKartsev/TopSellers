@@ -25,7 +25,7 @@
   }
   .desktop-tablet-title {
     display: inline-flex;
-    margin-right: 165px;
+    margin-right: 170px;
   }
   .photo-img1,
   .photo-img2 {
@@ -44,5 +44,9 @@
   .section-list-img-desktop,
   .section-list-img-mobile {
     display: none;
+  }
+  .section-list-img-tablet {
+    justify-content: center;
+    align-content: center;
   }
 }
